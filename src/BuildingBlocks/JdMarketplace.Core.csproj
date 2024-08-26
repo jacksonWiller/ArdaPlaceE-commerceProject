@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="Ardalis.Result" Version="8.0.0" />
+		<PackageReference Include="FluentValidation" Version="11.9.0" />
+		<PackageReference Include="mediatr" Version="8.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+		<PackageReference Include="NetDevPack" Version="1.1.0" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "",
+      "secretStore": "LocalSecretsFile",
+      "type": "mssql.onprem",
+      "connectionId": "ConnectionStrings:SqlConnection",
+      "dynamicId": null
+    },
+    "redis1": {
+      "serviceConnectorResourceId": "",
+      "containerPorts": "6379:6379",
+      "secretStore": "LocalSecretsFile",
+      "containerName": "redis",
+      "containerImage": "redis:alpine",
+      "type": "redis.container",
+      "connectionId": "Teste",
+      "dynamicId": null
+    }
+  }
+}
